@@ -1,0 +1,19 @@
+import PageShell from '../components/PageShell'
+
+export default function SettingsPage(){
+  return (
+    <PageShell>
+      <div className="container py-10">
+        <h2 className="text-2xl font-bold">Settings</h2>
+        <div className="text-sm text-slate-500">System-wide settings, camera onboarding, notification channels, and data retention</div>
+
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="p-4 rounded-lg bg-white/60 dark:bg-slate-800/40">Account & Security</div>
+          <div className="p-4 rounded-lg bg-white/60 dark:bg-slate-800/40">Notifications</div>
+          <div className="p-4 rounded-lg bg-white/60 dark:bg-slate-800/40">Data Retention</div>
+          <div className="p-4 rounded-lg bg-white/60 dark:bg-slate-800/40">Integrations</div>
+        </div>
+      </div>
+    </PageShell>
+  )
+}
