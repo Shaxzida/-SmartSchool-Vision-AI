@@ -1,97 +1,31 @@
-# SmartSchool Vision AI
+# SmartSchool Vision AI — Frontend (MVP)
 
-AI-powered School Safety Platform
+This commit scaffolds the frontend MVP for SmartSchool Vision AI.
 
-## Overview
+What I added
 
-SmartSchool Vision AI is an Artificial Intelligence platform that transforms existing school IP cameras into a smart safety monitoring system.
+- Next.js (app router) + TypeScript scaffold
+- TailwindCSS + global styles
+- Framer Motion animations
+- Recharts-powered demo analytics
+- Beautiful landing page (hero, features) designed for investor/startup competition demos
+- Dashboard skeleton with simulated live feeds, incident list, AI risk sparkline, interactive heatmap canvas
 
-The platform analyzes live video streams in real time and automatically detects dangerous situations such as:
+Colors
 
-- Fight Detection
-- Fall Detection
-- Unauthorized Person Detection
-- Restricted Area Detection
-- Smoke Detection
-- Emergency Crowd Detection
+- Primary: #2563EB
+- Accent: #06B6D4
 
-The system instantly notifies school administrators and parents through Telegram, Push Notifications, and SMS.
+Run locally
 
----
+1. Install dependencies: npm install
+2. Run dev server: npm run dev
+3. Open http://localhost:3000
 
-## Key Features
+Next steps
 
-- AI Video Analytics
-- Real-time Monitoring
-- Director Dashboard
-- Parent Mobile Application
-- AI Risk Score
-- Heat Maps
-- Incident Reports
-- Multi-school Management
-- Cloud & On-premise Deployment
+- Finish the rest of frontend pages (Live Monitor, Incidents, Reports, Settings)
+- Scaffold FastAPI backend and seed demo data (will do after you review frontend)
 
----
+Branch: mvp/startup-competition
 
-## Technology Stack
-
-Frontend
-
-- Next.js
-- React
-- TypeScript
-- TailwindCSS
-- Shadcn UI
-
-Backend
-
-- FastAPI
-- Python
-
-Database
-
-- PostgreSQL
-
-Artificial Intelligence
-
-- YOLOv11
-- RT-DETR
-- OpenCV
-- MediaPipe
-
-Infrastructure
-
-- Docker
-- Kubernetes
-
----
-
-## MVP
-
-- Fight Detection
-- Fall Detection
-- Intruder Detection
-- Telegram Alerts
-- Director Dashboard
-
----
-
-## Future Roadmap
-
-- Parent Mobile App
-- Risk Prediction
-- AI Heat Maps
-- Smart Analytics
-- Regional Monitoring Platform
-
----
-
-## Status
-
-🚀 Startup MVP Development
-
----
-
-## Author
-
-SmartSchool Vision AI Team
